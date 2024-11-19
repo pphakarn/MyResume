@@ -1,0 +1,142 @@
+.container {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px;
+    
+  border-radius: 10px;
+
+
+  background: #FFE3ED;
+  --gap: 5em;
+  --line: 1px;
+  --color: rgba(255, 255, 255, 0.2);
+
+
+}
+.header {
+    margin-bottom: 0.5%;
+    text-align: center;
+    background-color: #FFC8DD;
+    color: #ff5d8f;
+    padding: 20px 0;
+    border-radius: 10px;
+}                           
+.header img {
+    width: 300px; /* ใช้ auto เพื่อให้ปรับตามสัดส่วนของภาพ */
+    height: 300px; /* ตั้งค่าเฉพาะความสูง */
+    border-radius: 50%; /* ใช้ 50% เพื่อให้ภาพเป็นวงกลม */
+    object-fit: cover; /* ครอบคลุมพื้นที่และคงสัดส่วน */
+}
+
+.header h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.contact-info {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14px;
+    color: #f4f4f4;
+}
+.section {
+    margin-bottom: 5px;
+}
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    background-color: #FDCEDF;
+    color: #D14D72;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 10px;
+}
+p, li {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    color: #415c6d;
+}
+.section-content {
+    background-color: #F9F5F6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.link-project {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link-project:hover {
+    text-decoration: underline;
+}
+
+
+.ET1{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    color: rgb(151, 22, 22);
+}
+
+
+
+.DIT{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: rgb(151, 22, 22);
+}
+
+.PIM{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: #2d6a4f;
+}
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-color: #EAEAEA;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #00aced;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #fff;
+}
+
+a{
+    padding-left: 0.1%;
+}
+
+.instagram-icon svg {
+    fill: #b12929;
+    transition: fill 0.3s; 
+}
+
+.instagram-icon:hover svg {
+    fill: #E1306C;
+}
